@@ -1,17 +1,33 @@
 public class Main {
     public static void main(String[] args) {
+        task1();
+        task2();
+        task3();
+        task4();
+        task5();
+    }
+
+    public static void task1() {
         byte Byte = 20;
         short Short = 200;
         int Int = 1000;
         long Long = 10000L;
         float Float = 10.5F;
         double Double = 15.6;
+        boolean Boolean = true;
+        char Char = 'C';
+    }
+
+    public static void task2() {
         double Boxer1 = 78.2;
         double Boxer2 = 82.7;
         double weightOfBoxers = Boxer1 + Boxer2;
         System.out.println("Вес боксеров " + weightOfBoxers + " кг");
         double theDifferenceInTheWeightOfBoxers = Boxer2 - Boxer1;
         System.out.println(" Разница в весе боксеров " + theDifferenceInTheWeightOfBoxers + " кг");
+    }
+
+    public static void task3() {
         var quantityBananasPieces = 5;
         var quantityMilkMilliliters = 200;
         var quantityIceCreamSundaeBriquettes = 2;
@@ -27,6 +43,9 @@ public class Main {
         double sportsBreakfastGrams = weightBananasGrams + weightMillilitersMilkGrams + weightIceCreamSundaeBriquettesGrams + weightRawEggsGrams;
         var sportsBreakfastKilogram = sportsBreakfastGrams / 1000;
         System.out.println("Вес завтрака спортсмена перед тоенеровкой = " + sportsBreakfastKilogram + " кг!");
+    }
+
+    public static void task4() {
         int needToResetGrams = 7 * 1000;// перевел килограммы в граммы.
         int WeightLossPerDay250Grams = 250;
         int WeightLossPerDay500Grams = 500;
@@ -36,6 +55,9 @@ public class Main {
         System.out.println("Спотсмен похудее за " + daysToLoseWeight500Grams + " дней при ежедневной потере по 500 грамм");
         int averageNumberDays = (daysToLoseWeight250Grams + daysToLoseWeight500Grams) / 2;
         System.out.println("Среднне количество дне потребующихся для похудение " + averageNumberDays);
+    }
+
+    public static void task5() {
         float salaryIncreasePercent = 1.1F; // Повышение на 10%.
         int month = 12;
         int Masha = 67671;
