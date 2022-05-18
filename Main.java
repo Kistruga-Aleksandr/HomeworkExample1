@@ -5,6 +5,10 @@ public class Main {
         task3();
         task4();
         task5();
+        task6();
+        task7();
+        task8();
+
     }
 
     public static void task1() {
@@ -79,4 +83,33 @@ public class Main {
         System.out.println("Денис теперь получает " + SalaryDenisAfterPromotion + " рублей. Годовой доход вырос на " + DenisAnnualIncomeHasGrown + " рублей");
         System.out.println("Кристина теперь получает " + SalaryKristinaAfterPromotion + " рублей. Годовой доход вырос на " + KristinaAnnualIncomeHasGrown + " рублей");
     }
+    public static void task6(){
+      int a = 12;
+      int b = 27;
+      int c = 44;
+      int d = 15;
+      int e = 9;
+      var result = a * (b + (c - d * e));
+        result = Math.abs(result);
+        System.out.println(result);
+        result = -1 * (result);
+        System.out.println(result);
+    }
+    public static void task7(){
+        int a = 5;
+        int b = 7;
+         a = Math.abs(a - b);
+         b = b - a;
+         a = b + a;
+        System.out.println("a = " + a);
+        System.out.println("b = " + b);
+    }
+    public static void task8(){
+        int a = 474;
+        int b = a / 10 % 10 ;
+        System.out.println(b);
+
+    }
+
 }
+
